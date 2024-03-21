@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1.3 Ogrenci Bul 1.0</title>
+	<script type="text/javascript" src="OgrenciBul.js"></script>
+	<link rel="stylesheet" href="OgrenciBul.css">
+	<!-- <link rel="icon" href="../../image/icon21.png"> -->
+
+</head>
+
+<body onload="sayfaYukle();">
+	<div id="div-1" class="div-1">
+	<h3>
+		Öğrenci Bulalım 
+	</h3> 
+	<table class="table_1_css">
+		<tr>
+			<td>
+				<label for="input-1"> Öğrenci Numarası:</label>
+			</td>
+			<td>
+				<input id="input-1" type="number">
+			</td>
+			<td>
+				<button id="button-1" type="button" onclick="numaradanBul();">Öğrenci Numaranı Bul</button>
+			</td>
+			<td>
+				<p id="p-1" class="p-1">
+					Aranan öğrenci numarası:
+					<span id="span-1" class="span-1">
+				   </span>
+				   </p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="input-2"> Öğrenci Sırası:</label>
+			</td>
+			<td>
+				<input id="input-2" type="number" style="width:75px;">
+			</td>
+			<td>
+				<button id="button-2" type="button" onclick="siradanBul();">Sıra Numaralı Öğrenciyi Bul</button>
+			</td>
+			<td>
+				<p id="p-2" class="p-1">
+					Aranan öğrenci:
+					<span id="span-2" class="span-1">
+				   </span>
+				   </p>
+			</td>
+
+		
+		</tr>
+	</table>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h3
+{
+	color:#ffffff;
+}
+
+table.table_1_css
+{
+	border: solid 2px #7777EF;
+	width:950px;
+}
+
+tr
+{
+	height:35px;
+	vertical-align:middle;
+}
+
+.div-1
+{
+	border:solid 3px #7777BB;
+	background-color: #bd84b9;
+}
+.P-1
+{
+	font:oblique;
+	font-weight:600;
+	font-size:18px;
+	
+}
+.span-1
+{
+	font:italic;
+	font-weight:600;
+	font-size:16px;
+	color:#ffffff;
+	
+}
